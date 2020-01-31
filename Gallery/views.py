@@ -10,3 +10,5 @@ def harijadi (request):
     return render(request,'Harijadi.html')
 def Gedung (request):
     return render(request,'Gedung.html')
+def Venue (request):
+    return render(request,'SportVenue.html')
